@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://polygram.com.sg/sitemap.xml
