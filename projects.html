@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Polygram Design</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" aria-label="Main navigation">
+  <div class="container">
+    <a href="index.html" class="nav-logo"><img src="logo/polygram%20logo.png" alt="Polygram Design" class="nav-logo-img"><span class="nav-logo-name">POLYGRAM DESIGN</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<nav class="nav-mobile" aria-label="Mobile navigation">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="projects.html" class="active">Projects</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">Our work</p>
+    <h1 style="font-size:clamp(48px,7vw,90px);font-family:'Cormorant Garamond',serif;font-weight:600;line-height:0.95;letter-spacing:2px;margin-bottom:28px;">Projects</h1>
+    <p class="lead">Every project we've delivered — from full restaurant fit-outs to retail interiors and workplace transformations.</p>
+  </div>
+</section>
+
+<!-- FILTER + GRID -->
+<section class="section reveal-section" aria-label="Projects">
+  <div class="container">
+    <div class="filter-bar" role="group" aria-label="Filter by category">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="hospitality">Restaurant</button>
+      <button class="filter-btn" data-filter="retail">Retail</button>
+      <button class="filter-btn" data-filter="workplace">Office</button>
+    </div>
+
+    <div class="projects-grid reveal-stagger">
+      <a href="project-restaurant.html" class="project-card" data-category="hospitality">
+        <div class="project-card-img">
+          <img src="Rolls%20images/header.jpeg" alt="Rolls fit-out">
+          <div class="project-card-overlay"><span>See More</span></div>
+        </div>
+        <div class="project-card-info">
+          <p class="cat">Hospitality</p>
+          <h3>Rolls</h3>
+        </div>
+      </a>
+      <a href="project-religious-shop.html" class="project-card" data-category="retail">
+        <div class="project-card-img">
+          <img src="BaoJiYuan%20images/header.jpeg" alt="Religious shop interior">
+          <div class="project-card-overlay"><span>See More</span></div>
+        </div>
+        <div class="project-card-info">
+          <p class="cat">Retail</p>
+          <h3>BaoJiYuan</h3>
+        </div>
+      </a>
+      <a href="project-dnex.html" class="project-card" data-category="workplace">
+        <div class="project-card-img">
+          <img src="DNEX%20Ventures%20images/header.jpeg" alt="DNEX Ventures workplace fit-out">
+          <div class="project-card-overlay"><span>See More</span></div>
+        </div>
+        <div class="project-card-info">
+          <p class="cat">Workplace</p>
+          <h3>DNEX Ventures</h3>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="cta-strip reveal-section" aria-label="Call to action">
+  <div class="container">
+    <div>
+      <h2>Have a project in mind?</h2>
+      <p>We'd like to hear about your space.</p>
+    </div>
+    <a href="contact.html" class="btn btn-dark">Get in Touch</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo"><img src="logo/polygram%20logo.png" alt="Polygram Design" class="nav-logo-img"><span class="nav-logo-name">POLYGRAM DESIGN</span></a>
+        <p>Interior design and construction specialists. Design. Build. Transform.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Projects</h4>
+        <ul>
+          <li><a href="project-restaurant.html">Rolls</a></li>
+          <li><a href="project-religious-shop.html">BaoJiYuan</a></li>
+          <li><a href="project-dnex.html">DNEX Ventures</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Polygram Design. All rights reserved.</p>
+      <p>Design. Build. Transform.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

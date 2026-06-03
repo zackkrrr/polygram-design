@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rolls — Polygram Design</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" aria-label="Main navigation">
+  <div class="container">
+    <a href="index.html" class="nav-logo"><img src="logo/polygram%20logo.png" alt="Polygram Design" class="nav-logo-img"><span class="nav-logo-name">POLYGRAM DESIGN</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<nav class="nav-mobile" aria-label="Mobile navigation">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="projects.html" class="active">Projects</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<!-- PROJECT HERO -->
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="projects.html">Projects</a>
+      <span class="sep">/</span>
+      <span>Rolls</span>
+    </nav>
+    <div class="cat-badge">Hospitality</div>
+    <h1 style="font-size:clamp(42px,6vw,80px);font-family:'Cormorant Garamond',serif;font-weight:600;line-height:0.96;letter-spacing:2px;margin-bottom:28px;">Rolls</h1>
+    <p class="lead">A full commercial fit-out for a 120-cover restaurant — from raw shell to opening day. We designed the dining room, bar, kitchen pass, and service zones, then built every element in-house over a 14-week programme.</p>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section reveal-section" aria-labelledby="gallery-heading">
+  <div class="container">
+    <div class="section-header">
+      <p class="eyebrow">Photography</p>
+      <h2 id="gallery-heading" style="font-size:clamp(26px,3vw,40px);">Gallery</h2>
+      <div class="gold-rule"></div>
+    </div>
+    <div class="gallery-grid reveal-stagger">
+      <div class="gallery-item" style="min-height:320px;">
+        <img src="Rolls%20images/header.jpeg" alt="Rolls interior main view">
+        <div class="g-overlay"><div class="plus">+</div></div>
+      </div>
+      <div class="gallery-item" style="min-height:200px;">
+        <img src="Rolls%20images/WhatsApp%20Image%202026-05-21%20at%203.48.05%20PM%20%281%29.jpeg" alt="Rolls bar area">
+        <div class="g-overlay"><div class="plus">+</div></div>
+      </div>
+      <div class="gallery-item" style="min-height:200px;">
+        <img src="Rolls%20images/WhatsApp%20Image%202026-05-21%20at%203.48.07%20PM%20%281%29.jpeg" alt="Rolls dining zone">
+        <div class="g-overlay"><div class="plus">+</div></div>
+      </div>
+      <div class="gallery-item" style="min-height:200px;">
+        <img src="Rolls%20images/WhatsApp%20Image%202026-05-21%20at%203.48.07%20PM.jpeg" alt="Rolls lighting detail">
+        <div class="g-overlay"><div class="plus">+</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECT NAV -->
+<div class="container">
+  <div class="project-nav-strip">
+    <a href="projects.html" class="btn">Back to Projects</a>
+    <a href="project-religious-shop.html" class="btn btn-gold">Next: BaoJiYuan &#8250;</a>
+  </div>
+</div>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox">
+  <button class="lb-close" aria-label="Close lightbox">&#10005;</button>
+  <button class="lb-nav lb-prev" aria-label="Previous image">&#8249;</button>
+  <img class="lb-img" src="" alt="">
+  <button class="lb-nav lb-next" aria-label="Next image">&#8250;</button>
+  <div class="lb-counter" aria-live="polite"></div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo"><img src="logo/polygram%20logo.png" alt="Polygram Design" class="nav-logo-img"><span class="nav-logo-name">POLYGRAM DESIGN</span></a>
+        <p>Interior design and construction specialists. Design. Build. Transform.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Projects</h4>
+        <ul>
+          <li><a href="project-restaurant.html">Rolls</a></li>
+          <li><a href="project-religious-shop.html">BaoJiYuan</a></li>
+          <li><a href="project-dnex.html">DNEX Ventures</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Polygram Design. All rights reserved.</p>
+      <p>Design. Build. Transform.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

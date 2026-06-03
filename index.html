@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Polygram Design — Interior Design &amp; Construction</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" aria-label="Main navigation">
+  <div class="container">
+    <a href="index.html" class="nav-logo"><img src="logo/polygram%20logo.png" alt="Polygram Design" class="nav-logo-img"><span class="nav-logo-name">POLYGRAM DESIGN</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<nav class="nav-mobile" aria-label="Mobile navigation">
+  <a href="index.html" class="active">Home</a>
+  <a href="about.html">About</a>
+  <a href="projects.html">Projects</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero" aria-label="Hero">
+  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+  <div class="hero-content">
+    <p class="hero-label">Interior Design &amp; Construction</p>
+    <h1 class="hero-name">POLYGRAM<br>DESIGN</h1>
+    <p class="hero-tagline">Design. Build. Transform.</p>
+    <div class="hero-cta">
+      <a href="projects.html" class="btn btn-gold">View Our Work</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT SNIPPET -->
+<section class="section reveal-section" aria-labelledby="about-heading">
+  <div class="container">
+    <div class="about-snippet">
+      <div class="about-snippet-text">
+        <p class="eyebrow">Who we are</p>
+        <h2 id="about-heading" style="font-size:clamp(30px,3.5vw,46px);margin-bottom:24px;">A contractor built<br>around design</h2>
+        <p>Polygram Design is a specialist contractor operating at the intersection of interior design and construction. We work with commercial clients to transform spaces that are functional, refined, and built to last.</p>
+        <p>From concept through completion, our in-house team handles every stage — eliminating handoff friction and delivering results that hold up to the precision of our plans.</p>
+        <a href="about.html" class="btn btn-gold" style="margin-top:16px;">About Us</a>
+      </div>
+      <div class="about-snippet-visual" aria-hidden="true">
+        <div class="about-poly-grid reveal-stagger">
+          <div class="about-poly-item"><div class="poly-shape poly-pent"></div></div>
+          <div class="about-poly-item"><div class="poly-shape poly-tri"></div></div>
+          <div class="about-poly-item"><div class="poly-shape poly-hex"></div></div>
+          <div class="about-poly-item"><div class="poly-shape poly-dia"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES PREVIEW -->
+<section class="section reveal-section" style="padding-top:0;" aria-labelledby="services-heading">
+  <div class="container">
+    <div class="section-header">
+      <p class="eyebrow">What we do</p>
+      <h2 id="services-heading" style="font-size:clamp(30px,3.5vw,46px);">Services</h2>
+      <div class="gold-rule"></div>
+    </div>
+    <div class="services-grid reveal-stagger">
+      <div class="service-card">
+        <div class="service-icon poly-pent"></div>
+        <h3>Interior Design</h3>
+        <p>Considered spatial design that balances aesthetics with operational clarity — tailored to your brand and your users.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon poly-tri"></div>
+        <h3>Construction &amp; Fit-Out</h3>
+        <p>Full commercial fit-out and construction, managed in-house from groundwork to finishes without subcontracting risk.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon poly-dia"></div>
+        <h3>Space Planning</h3>
+        <p>Strategic planning of flow, zoning, and layout — maximising the utility of every square metre before a single wall is built.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED PROJECTS -->
+<section class="section reveal-section" aria-labelledby="projects-heading">
+  <div class="container">
+    <div class="section-header" style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:20px;">
+      <div>
+        <p class="eyebrow">Selected work</p>
+        <h2 id="projects-heading" style="font-size:clamp(30px,3.5vw,46px);">Featured Projects</h2>
+        <div class="gold-rule"></div>
+      </div>
+      <a href="projects.html" class="btn" style="align-self:flex-end;">All Projects</a>
+    </div>
+    <div class="projects-grid reveal-stagger">
+      <a href="project-restaurant.html" class="project-card">
+        <div class="project-card-img">
+          <img src="Rolls%20images/header.jpeg" alt="Rolls project">
+          <div class="project-card-overlay"><span>View Project</span></div>
+        </div>
+        <div class="project-card-info">
+          <p class="cat">Hospitality</p>
+          <h3>Rolls</h3>
+        </div>
+      </a>
+      <a href="project-religious-shop.html" class="project-card">
+        <div class="project-card-img">
+          <img src="BaoJiYuan%20images/header.jpeg" alt="BaoJiYuan project">
+          <div class="project-card-overlay"><span>View Project</span></div>
+        </div>
+        <div class="project-card-info">
+          <p class="cat">Retail</p>
+          <h3>BaoJiYuan</h3>
+        </div>
+      </a>
+      <a href="project-dnex.html" class="project-card">
+        <div class="project-card-img">
+          <img src="DNEX%20Ventures%20images/header.jpeg" alt="DNEX Ventures workplace fit-out">
+          <div class="project-card-overlay"><span>View Project</span></div>
+        </div>
+        <div class="project-card-info">
+          <p class="cat">Workplace</p>
+          <h3>DNEX Ventures</h3>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="section reveal-section" style="padding-top:0;" aria-labelledby="why-heading">
+  <div class="container">
+    <div class="section-header">
+      <p class="eyebrow">Why Polygram</p>
+      <h2 id="why-heading" style="font-size:clamp(30px,3.5vw,46px);">What sets us apart</h2>
+      <div class="gold-rule"></div>
+    </div>
+    <div class="why-grid reveal-stagger">
+      <div class="why-item">
+        <div class="why-num">01</div>
+        <h3>End-to-end delivery</h3>
+        <p>Design and build under one roof. No gaps, no blame-shifting between trades.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-num">02</div>
+        <h3>On-time completion</h3>
+        <p>Commercial fit-outs run to tight windows. We schedule to deliver, not to renegotiate.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-num">03</div>
+        <h3>Commercial specialists</h3>
+        <p>We work exclusively in commercial spaces — retail, hospitality, and workplace environments.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-num">04</div>
+        <h3>Design + build in-house</h3>
+        <p>Our designers and builders share the same office. The plans stay true from first sketch to final coat.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="cta-strip reveal-section" aria-label="Call to action">
+  <div class="container">
+    <div>
+      <h2>Let's build something sharp.</h2>
+      <p>Tell us about your project — we'll take it from there.</p>
+    </div>
+    <a href="contact.html" class="btn btn-dark">Start a Project</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo"><img src="logo/polygram%20logo.png" alt="Polygram Design" class="nav-logo-img"><span class="nav-logo-name">POLYGRAM DESIGN</span></a>
+        <p>Interior design and construction specialists. Design. Build. Transform.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Projects</h4>
+        <ul>
+          <li><a href="project-restaurant.html">Rolls</a></li>
+          <li><a href="project-religious-shop.html">BaoJiYuan</a></li>
+          <li><a href="project-dnex.html">DNEX Ventures</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Polygram Design. All rights reserved.</p>
+      <p>Design. Build. Transform.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
